@@ -2,21 +2,21 @@
   {"id":"p1","title":"Cordão de prata","subtitle":"Conjunto,cordão","price":"R$ 28","img":"images/produto1.jpeg","desc":"Cordão de prata n12, com detalhamento nas pontas e um toque de elegancia.","badge":"Exclusivo","sold":true},
   {"id":"p2","title":"Brinco bolinha de Ouro","subtitle":"Acessório Exclusivo","price":"R$ 15","img":"images/produto2.jpeg","desc":"Brinco banhado a ouro maciço.","badge":"Novo","sold":true},
   {"id":"p3","title":"Produto 3","subtitle":"Acessório Exclusivo","price":"","img":"images/produto3.jpeg","desc":"Descrição do Produto 3.","badge":"Novo","sold":true},
-  {"id":"p4","title":"Produto 4","subtitle":"Acessório Exclusivo","price":"","img":"images/produto4.jpeg","desc":"Descrição do Produto 4.","badge":"Novo","sold":false},
-  {"id":"p5","title":"Produto 5","subtitle":"Acessório Exclusivo","price":"","img":"images/produto5.jpeg","desc":"Descrição do Produto 5.","badge":"Novo","sold":false},
+  {"id":"p4","title":"Brinco ouro","subtitle":"Brincos","price":"R$ 18","img":"images/produto4.jpeg","desc":"Descrição do Produto 4.","badge":"Dourado","sold":false},
+  {"id":"p5","title":"Brinco dourado","subtitle":"Brincos","price":"R$ 18","img":"images/produto5.jpeg","desc":"Descrição do Produto 5.","badge":"Dourado","sold":false},
   {"id":"p6","title":"Produto 6","subtitle":"Acessório Exclusivo","price":"32","img":"images/produto6.jpeg","desc":"Descrição do Produto 6.","badge":"Novo","sold":false},
-  {"id":"p7","title":"Produto 7","subtitle":"Acessório Exclusivo","price":"","img":"images/produto7.jpeg","desc":"Descrição do Produto 7.","badge":"Coleção","sold":false},
-  {"id":"p8","title":"Produto 8","subtitle":"Acessório Exclusivo","price":"","img":"images/produto8.jpeg","desc":"Descrição do Produto 8.","badge":"Coleção","sold":false},
-  {"id":"p9","title":"Produto 9","subtitle":"Acessório Exclusivo","price":"","img":"images/produto9.jpeg","desc":"Descrição do Produto 9.","badge":"Coleção","sold":false},
-  {"id":"p10","title":"Produto 10","subtitle":"Acessório Exclusivo","price":"","img":"images/produto10.jpeg","desc":"Descrição do Produto 10.","badge":"Coleção","sold":false},
-  {"id":"p11","title":"Produto 11","subtitle":"Acessório Exclusivo","price":"","img":"images/produto11.jpeg","desc":"Descrição do Produto 11.","badge":"Coleção","sold":false},
-  {"id":"p12","title":"Produto 12","subtitle":"Acessório Exclusivo","price":"","img":"images/produto12.jpeg","desc":"Descrição do Produto 12.","badge":"Coleção","sold":false},
+  {"id":"p7","title":"Argolas","subtitle":"Brincos","price":"R$ 18","img":"images/produto7.jpeg","desc":"Descrição do Produto 7.","badge":"Coleção","sold":false},
+  {"id":"p8","title":"Brinco elegancy","subtitle":"Acessório Exclusivo","price":"R$ 15","img":"images/produto8.jpeg","desc":"Descrição do Produto 8.","badge":"Coleção","sold":false},
+  {"id":"p9","title":"Brinco Flor","subtitle":"Brincos","price":"R$ 16","img":"images/produto9.jpeg","desc":"Descrição do Produto 9.","badge":"Coleção","sold":false},
+  {"id":"p10","title":"Brinco redondo P","subtitle":"Brincos","price":"R$ 12","img":"images/produto10.jpeg","desc":"Descrição do Produto 10.","badge":"Coleção","sold":false},
+  {"id":"p11","title":"Argola bolinha","subtitle":"Acessório Exclusivo","price":"R$ 15","img":"images/produto11.jpeg","desc":"Descrição do Produto 11.","badge":"Coleção","sold":false},
+  {"id":"p12","title":"Brinco Borboleta","subtitle":"Acessório Exclusivo","price":"","img":"images/produto12.jpeg","desc":"Descrição do Produto 12.","badge":"Dourado","sold":false},
   {"id":"p13","title":"Produto 13","subtitle":"Acessório Exclusivo","price":"","img":"images/produto13.jpeg","desc":"Descrição do Produto 13.","badge":"Coleção","sold":false},
   {"id":"p14","title":"Produto 14","subtitle":"Acessório Exclusivo","price":"","img":"images/produto14.jpeg","desc":"Descrição do Produto 14.","badge":"Coleção","sold":false},
   {"id":"p15","title":"Produto 15","subtitle":"Acessório Exclusivo","price":"","img":"images/produto15.jpeg","desc":"Descrição do Produto 15.","badge":"Coleção","sold":false},
   {"id":"p16","title":"Produto 16","subtitle":"Acessório Exclusivo","price":"","img":"images/produto16.jpeg","desc":"Descrição do Produto 16.","badge":"Coleção","sold":false},
   {"id":"p17","title":"Produto 17","subtitle":"Acessório Exclusivo","price":"","img":"images/produto17.jpeg","desc":"Descrição do Produto 17.","badge":"Coleção","sold":false},
-  {"id":"p18","title":"Produto 18","subtitle":"Acessório Exclusivo","price":"","img":"images/produto18.jpeg","desc":"Descrição do Produto 18.","badge":"Coleção","sold":false},
+  {"id":"p18","title":"Brinco corações duplos","subtitle":"Acessório Exclusivo","price":"R$ 18","img":"images/produto18.jpeg","desc":"Descrição do Produto 18.","badge":"Dourado e Prata","sold":false},
   {"id":"p19","title":"Produto 19","subtitle":"Acessório Exclusivo","price":"","img":"images/produto19.jpeg","desc":"Descrição do Produto 19.","badge":"Coleção","sold":false},
   {"id":"p20","title":"Produto 20","subtitle":"Acessório Exclusivo","price":"","img":"images/produto20.jpeg","desc":"Descrição do Produto 20.","badge":"Coleção","sold":false},
   {"id":"p21","title":"Produto 21","subtitle":"Acessório Exclusivo","price":"","img":"images/produto21.jpeg","desc":"Descrição do Produto 21.","badge":"Coleção","sold":false},
@@ -60,6 +60,7 @@
   {"id":"p59","title":"Produto 59","subtitle":"Acessório Exclusivo","price":"","img":"images/produto59.jpeg","desc":"Descrição do Produto 59.","badge":"Coleção","sold":false},
   {"id":"p60","title":"Produto 60","subtitle":"Acessório Exclusivo","price":"","img":"images/produto60.jpeg","desc":"Descrição do Produto 60.","badge":"Coleção","sold":false}
 ]
+
 
 
 

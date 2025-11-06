@@ -11,15 +11,30 @@
 </head>
 <body>
   
-  <header>
-    <div class="header-content">
-      <div class="logo">
-        <h1>Ju-Acessorios</h1>
-        <span>Aço inox</span>
-      </div>
-      <div class="header-badge">✦ Coleção Exclusiva 2025</div>
+  <!-- Sacola (Sidebar) - Adicionada aqui -->
+  <div id="sacola" style="position: fixed; right: 10px; top: 10px; width: 280px; max-height: 80vh; background: #fff; border: 1px solid #ddd; padding: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); overflow-y: auto; z-index: 1000;">
+    <!-- Conteúdo será preenchido pelo JavaScript -->
+  </div>
+<header>
+  <div class="header-content">
+    <div class="logo">
+      <h1>Ju*Acessorios</h1>
+      <span>Aço inox</span>
     </div>
-  </header>
+    <div class="header-right">
+      <div class="header-badge">✦ Coleção Exclusiva 2025</div>
+      <!-- Botão da Sacola no Header -->
+      <button id="toggleSacola" class="sacola-toggle" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span class="sacola-counter">0</span>
+      </button>
+    </div>
+  </div>
+</header>
 
   <section class="hero">
     <h2>
@@ -38,6 +53,7 @@
     <section class="grid" id="grid">
       <!-- Cards gerados via JavaScript -->
     </section>
+    <div id="sacola" style="display: none;"></div>
   </main>
 
   <div class="modal-back" id="modalBack" aria-hidden="true">
@@ -61,6 +77,10 @@
               <button class="btn-modal details" id="modalMore">
                 Ver Mais Detalhes
               </button>
+              <!-- Botão Adicionar à Sacola no Modal - Adicionado aqui -->
+              <button id="modalAddToBag" class="btn-modal">
+                Adicionar à Sacola
+              </button>
             </div>
           </div>
         </div>
@@ -68,12 +88,19 @@
     </div>
   </div>
 
-  <footer>
-    <p>✦ Brisa Joias — Onde a beleza encontra a autenticidade ✦</p>
+  <!-- Footer Unificado com Links para Instagram e WhatsApp -->
+  <footer style="background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #ddd; margin-top: 40px;">
+    <p>✦ Ju-Acessorios — Onde a beleza encontra a autenticidade ✦</p>
     <small>Mostruário Digital • Entre em contato pelo WhatsApp</small>
+    <p>Siga-nos e entre em contato!</p>
+    <a href="https://www.instagram.com/SEU_INSTAGRAM_AQUI" target="_blank" style="margin: 0 10px;">
+      <img src="images/icons/instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+    </a>
+    <a href="https://wa.me/5521992344201?text=Olá%2C%20gostaria%20de%20mais%20informações!" target="_blank" style="margin: 0 10px;">
+      <img src="images/icons/wpp.png" alt="WhatsApp" style="width: 30px; height: 30px;">
+    </a>
   </footer>
 
   <script src="script.js"></script>
 </body>
-
 </html>

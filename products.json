@@ -130,5 +130,16 @@
     "badge": "Novo",
     "sold": false,
     "category": "pulseiras"
+  },
+  {
+    "id": "p13",
+    "title": "Pulseira Berloque Personalizada",
+    "subtitle": "Crie seu Estilo",
+    "price": "R$ 92,00",
+    "img": "images/produto12.jpeg",
+    "desc": "Pulseira com berloques personalizáveis. Monte sua combinação única e especial.",
+    "badge": "Novo",
+    "sold": false,
+    "category": "pulseiras"
   }
 ]

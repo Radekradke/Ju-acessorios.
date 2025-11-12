@@ -122,7 +122,7 @@ header {
   box-shadow: 0 6px 20px rgba(162, 6, 33, 0.3);
 }
 
-/* Hero Section */
+/* ========== HERO COM FORMAS GEOMÉTRICAS ========== */
 .hero {
   max-width: 1400px;
   margin: 0 auto;
@@ -130,7 +130,248 @@ header {
   text-align: center;
   position: relative;
   z-index: 1;
-  background: radial-gradient(ellipse at center, rgba(247, 231, 233, 0.3) 0%, transparent 70%);
+  overflow: hidden;
+  background: linear-gradient(180deg, 
+    #FFFFF0 0%,
+    #FFF8F8 30%,
+    #FAF9F6 70%,
+    #F7E7E9 100%
+  );
+}
+
+/* Container das formas geométricas */
+.geometric-shapes {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.shape {
+  position: absolute;
+  opacity: 0.15;
+  filter: blur(1px);
+}
+
+/* ========== CÍRCULOS ========== */
+.circle-1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a20621, #d4082e);
+  top: 10%;
+  left: 8%;
+  animation: float1 15s ease-in-out infinite;
+}
+
+.circle-2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #F7E7E9, #d4082e);
+  top: 60%;
+  right: 15%;
+  animation: float2 18s ease-in-out infinite;
+}
+
+.circle-3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7a0418, #a20621);
+  bottom: 15%;
+  left: 20%;
+  animation: float3 20s ease-in-out infinite;
+}
+
+/* ========== QUADRADOS ========== */
+.square-1 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #d4082e, #F7E7E9);
+  border-radius: 8px;
+  top: 35%;
+  right: 10%;
+  animation: float4 16s ease-in-out infinite;
+}
+
+.square-2 {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #a20621, #F7E7E9);
+  border-radius: 6px;
+  bottom: 25%;
+  right: 25%;
+  animation: float5 14s ease-in-out infinite;
+}
+
+/* ========== DIAMANTES ========== */
+.diamond-1 {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #F7E7E9, #a20621);
+  transform: rotate(45deg);
+  top: 20%;
+  right: 30%;
+  animation: float6 17s ease-in-out infinite, rotate1 20s linear infinite;
+}
+
+.diamond-2 {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #d4082e, #7a0418);
+  transform: rotate(45deg);
+  bottom: 40%;
+  left: 15%;
+  animation: float7 19s ease-in-out infinite, rotate2 25s linear infinite;
+}
+
+/* ========== TRIÂNGULOS ========== */
+.triangle-1 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 90px solid #a20621;
+  opacity: 0.12;
+  top: 45%;
+  left: 5%;
+  animation: float8 21s ease-in-out infinite;
+  filter: blur(2px);
+}
+
+.triangle-2 {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 70px solid #d4082e;
+  opacity: 0.12;
+  bottom: 10%;
+  right: 8%;
+  animation: float9 16s ease-in-out infinite;
+  filter: blur(2px);
+}
+
+/* ========== HEXÁGONO ========== */
+.hexagon-1 {
+  width: 80px;
+  height: 46px;
+  background: linear-gradient(135deg, #7a0418, #F7E7E9);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  animation: float10 22s ease-in-out infinite, rotate3 30s linear infinite;
+}
+
+.hexagon-1::before {
+  content: "";
+  position: absolute;
+  top: -23px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 23px solid #7a0418;
+}
+
+.hexagon-1::after {
+  content: "";
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 23px solid #F7E7E9;
+}
+
+/* ========== ANIMAÇÕES DE FLUTUAÇÃO ========== */
+@keyframes float1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(30px, -40px) scale(1.1); }
+  50% { transform: translate(-20px, -60px) scale(0.95); }
+  75% { transform: translate(40px, -30px) scale(1.05); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-40px, 30px) scale(1.15); }
+  66% { transform: translate(20px, -40px) scale(0.9); }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  30% { transform: translate(50px, 20px) scale(1.2); }
+  60% { transform: translate(-30px, 40px) scale(0.85); }
+}
+
+@keyframes float4 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40% { transform: translate(-50px, -20px) scale(1.1); }
+  80% { transform: translate(30px, 30px) scale(0.95); }
+}
+
+@keyframes float5 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  35% { transform: translate(40px, -30px) scale(1.15); }
+  70% { transform: translate(-40px, 20px) scale(0.9); }
+}
+
+@keyframes float6 {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(45deg); }
+  25% { transform: translate(-30px, 40px) scale(1.1) rotate(45deg); }
+  50% { transform: translate(40px, -30px) scale(0.95) rotate(45deg); }
+  75% { transform: translate(-20px, 20px) scale(1.05) rotate(45deg); }
+}
+
+@keyframes float7 {
+  0%, 100% { transform: translate(0, 0) scale(1) rotate(45deg); }
+  33% { transform: translate(30px, -40px) scale(1.15) rotate(45deg); }
+  66% { transform: translate(-40px, 30px) scale(0.9) rotate(45deg); }
+}
+
+@keyframes float8 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40% { transform: translate(50px, -30px) scale(1.2); }
+  80% { transform: translate(-30px, 40px) scale(0.85); }
+}
+
+@keyframes float9 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-40px, -40px) scale(1.1); }
+}
+
+@keyframes float10 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(-50px, 30px) scale(1.15); }
+  66% { transform: translate(40px, -30px) scale(0.9); }
+}
+
+/* ========== ROTAÇÕES CONTÍNUAS ========== */
+@keyframes rotate1 {
+  from { transform: rotate(45deg); }
+  to { transform: rotate(405deg); }
+}
+
+@keyframes rotate2 {
+  from { transform: rotate(45deg); }
+  to { transform: rotate(-315deg); }
+}
+
+@keyframes rotate3 {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Garantir que o conteúdo da Hero fique acima das formas */
+.hero h2,
+.hero .divider,
+.hero p {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h2 {
@@ -175,8 +416,54 @@ header {
   margin: 0 auto 50px;
   animation: fadeInUp 1s ease-out 0.6s both;
   box-shadow: 0 0 15px rgba(162, 6, 33, 0.4);
+  position: relative;
+  z-index: 1;
 }
 
+/* ========== RESPONSIVO MOBILE ========== */
+@media(max-width: 768px) {
+  .hero {
+    padding: 80px 20px 60px;
+  }
+  
+  .hero h2 {
+    font-size: 42px;
+  }
+  
+  .hero p {
+    font-size: 15px;
+  }
+  
+  /* Formas menores em mobile */
+  .circle-1 { width: 80px; height: 80px; }
+  .circle-2 { width: 60px; height: 60px; }
+  .circle-3 { width: 40px; height: 40px; }
+  .square-1 { width: 70px; height: 70px; }
+  .square-2 { width: 50px; height: 50px; }
+  .diamond-1 { width: 60px; height: 60px; }
+  .diamond-2 { width: 45px; height: 45px; }
+  .hexagon-1 { width: 60px; height: 35px; }
+}
+
+@media(max-width: 480px) {
+  .hero {
+    padding: 60px 16px 40px;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+  }
+  
+  /* Formas ainda menores */
+  .circle-1 { width: 60px; height: 60px; }
+  .circle-2 { width: 45px; height: 45px; }
+  .circle-3 { width: 30px; height: 30px; }
+  .square-1 { width: 50px; height: 50px; }
+  .square-2 { width: 35px; height: 35px; }
+  .diamond-1 { width: 45px; height: 45px; }
+  .diamond-2 { width: 30px; height: 30px; }
+  .hexagon-1 { width: 40px; height: 23px; }
+}
 /* ========== NOVA SEÇÃO: FILTRO DE CATEGORIAS ========== */
 .category-section {
   position: relative;
@@ -2113,3 +2400,5 @@ body {
 .sacola-container:hover {
   transform: translateY(-50%) scale(1.03);
 }
+
+

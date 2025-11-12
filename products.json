@@ -1,0 +1,134 @@
+[
+  {
+    "id": "p1",
+    "title": "Bracelete Dourado Elegante",
+    "subtitle": "Aço Inox Banhado",
+    "price": "R$ 89,90",
+    "img": "images/produto1.jpeg",
+    "desc": "Bracelete sofisticado em aço inox com banho dourado de alta qualidade. Acabamento impecável que adiciona elegância a qualquer look.",
+    "badge": "Novo",
+    "sold": false,
+    "category": "bracelete"
+  },
+  {
+    "id": "p2",
+    "title": "Brinco Argola Minimalista",
+    "subtitle": "Design Contemporâneo",
+    "price": "R$ 65,00",
+    "img": "images/produto2.jpeg",
+    "desc": "Brinco argola em aço inox com design minimalista e moderno. Peça versátil para o dia a dia ou ocasiões especiais.",
+    "badge": "Destaque",
+    "sold": false,
+    "category": "brincos"
+  },
+  {
+    "id": "p3",
+    "title": "Colar Delicado com Pingente",
+    "subtitle": "Charme e Sofisticação",
+    "price": "R$ 78,50",
+    "img": "images/produto3.jpeg",
+    "desc": "Colar delicado em aço inox com pingente exclusivo. Comprimento ajustável e acabamento premium.",
+    "badge": "Novo",
+    "sold": false,
+    "category": "colares"
+  },
+  {
+    "id": "p4",
+    "title": "Pulseira Feminina Charmosa",
+    "subtitle": "Elegância no Pulso",
+    "price": "R$ 72,00",
+    "img": "images/produto4.jpeg",
+    "desc": "Pulseira em aço inox com design charmoso e fechamento seguro. Ideal para compor looks elegantes.",
+    "badge": "Coleção",
+    "sold": false,
+    "category": "pulseiras"
+  },
+  {
+    "id": "p5",
+    "title": "Bracelete Artesanal Premium",
+    "subtitle": "Peça Única",
+    "price": "R$ 125,00",
+    "img": "images/produto5.jpeg",
+    "desc": "Bracelete artesanal em aço inox com detalhes exclusivos. Cada peça é única e especial.",
+    "badge": "Premium",
+    "sold": false,
+    "category": "bracelete"
+  },
+  {
+    "id": "p6",
+    "title": "Brinco Gota Sofisticado",
+    "subtitle": "Brilho Especial",
+    "price": "R$ 82,00",
+    "img": "images/produto6.jpeg",
+    "desc": "Brinco formato gota com acabamento brilhante. Perfeito para eventos especiais e ocasiões importantes.",
+    "badge": "Novo",
+    "sold": false,
+    "category": "brincos"
+  },
+  {
+    "id": "p7",
+    "title": "Colar Longo Moderno",
+    "subtitle": "Estilo Contemporâneo",
+    "price": "R$ 95,00",
+    "img": "images/produto7.jpeg",
+    "desc": "Colar longo em aço inox com design moderno e diferenciado. Adiciona estilo a qualquer produção.",
+    "badge": "Coleção",
+    "sold": false,
+    "category": "colares"
+  },
+  {
+    "id": "p8",
+    "title": "Pulseira Corrente Clássica",
+    "subtitle": "Atemporal",
+    "price": "R$ 68,00",
+    "img": "images/produto8.jpeg",
+    "desc": "Pulseira em corrente de aço inox com design clássico e atemporal. Combina com tudo.",
+    "badge": "Coleção",
+    "sold": false,
+    "category": "pulseiras"
+  },
+  {
+    "id": "p9",
+    "title": "Bracelete Texturizado",
+    "subtitle": "Acabamento Especial",
+    "price": "R$ 98,00",
+    "img": "images/produto9.jpeg",
+    "desc": "Bracelete com textura exclusiva e acabamento diferenciado. Peça marcante e elegante.",
+    "badge": "Coleção",
+    "sold": false,
+    "category": "bracelete"
+  },
+  {
+    "id": "p10",
+    "title": "Brinco Trio Minimalista",
+    "subtitle": "Kit Completo",
+    "price": "R$ 75,00",
+    "img": "images/produto10.jpeg",
+    "desc": "Conjunto com três pares de brincos minimalistas. Versatilidade e estilo em uma única peça.",
+    "badge": "Kit",
+    "sold": false,
+    "category": "brincos"
+  },
+  {
+    "id": "p11",
+    "title": "Colar Choker Moderno",
+    "subtitle": "Tendência Fashion",
+    "price": "R$ 85,00",
+    "img": "images/produto11.jpeg",
+    "desc": "Choker em aço inox seguindo as últimas tendências da moda. Design moderno e versátil.",
+    "badge": "Tendência",
+    "sold": false,
+    "category": "colares"
+  },
+  {
+    "id": "p12",
+    "title": "Pulseira Berloque Personalizada",
+    "subtitle": "Crie seu Estilo",
+    "price": "R$ 92,00",
+    "img": "images/produto12.jpeg",
+    "desc": "Pulseira com berloques personalizáveis. Monte sua combinação única e especial.",
+    "badge": "Novo",
+    "sold": false,
+    "category": "pulseiras"
+  }
+]

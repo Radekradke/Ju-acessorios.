@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title> Ju — Acessorios </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+
+<body>
+  
+  <!-- Sacola (Sidebar) - Adicionada aqui -->
+  <div id="sacola" style="position: fixed; right: 10px; top: 10px; width: 280px; max-height: 80vh; background: #fff; border: 1px solid #ddd; padding: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); overflow-y: auto; z-index: 1000;">
+    <!-- Conteúdo será preenchido pelo JavaScript -->
+  </div>
+<header>
+  <div class="header-content">
+    <div class="logo">
+      <h1>Ju*Acessorios</h1>
+      <span>Aço inox</span>
+    </div>
+    <div class="header-right">
+      <div class="header-badge">✦ Coleção Exclusiva 2025</div>
+      <!-- Botão da Sacola no Header -->
+      <button id="toggleSacola" class="sacola-toggle" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span class="sacola-counter">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+  <section class="hero">
+    <h2>
+      Elegância que Transcende
+      <strong>Cada Detalhe Conta</strong>
+    </h2>
+    <div class="divider"></div>
+    <p>
+     Criações únicas que traduzem elegância e personalidade. 
+     Cada peça é pensada para realçar sua beleza 
+     e transformar cada momento em um toque de brilho e estilo.
+    </p>
+  </section>
+
+<!-- Seção de Filtro de Categorias -->
+<section class="category-section">
+  <div class="category-background">
+    <div class="category-pattern"></div>
+  </div>
+  <div class="category-filter">
+    <button class="category-btn active" data-category="todos">
+      <span class="category-label">Todos</span>
+    </button>
+    <button class="category-btn" data-category="bracelete">
+      <span class="category-label">Braceletes</span>
+    </button>
+    <button class="category-btn" data-category="brincos">
+      <span class="category-label">Brincos</span>
+    </button>
+    <button class="category-btn" data-category="colares">
+      <span class="category-label">Colares</span>
+    </button>
+    <button class="category-btn" data-category="pulseiras">
+      <span class="category-label">Pulseiras</span>
+    </button>
+  </div>
+</section>
+
+  <main class="wrap">
+    <section class="grid" id="grid">
+      <!-- Cards gerados via JavaScript -->
+    </section>
+   
+  </main>
+
+  <div class="modal-back" id="modalBack" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <strong id="modalTitle">Produto</strong>
+        <button class="close" id="closeBtn">Fechar</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="modal-img-container">
+            <img id="modalImg" src="" alt="">
+          </div>
+          <div class="modal-info">
+            <p id="modalDesc">Descrição</p>
+            <p id="modalPrice">R$ 0,00</p>
+            <div class="modal-actions">
+              <button class="btn-modal wpp" id="modalWpp">
+                 Solicitar via WhatsApp
+              </button>
+              <button class="btn-modal details" id="modalMore">
+                Ver Mais Detalhes
+              </button>
+              <!-- Botão Adicionar à Sacola no Modal - Adicionado aqui -->
+              <button id="modalAddToBag" class="btn-modal">
+                Adicionar à Sacola
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Unificado com Links para Instagram e WhatsApp -->
+  <footer style="background-color: #f8f9fa; padding: 20px; text-align: center; border-top: 1px solid #ddd; margin-top: 40px;">
+    <p>✦ Ju-Acessorios — Onde a beleza encontra a autenticidade ✦</p>
+    <small>Mostruário Digital • Entre em contato pelo WhatsApp</small>
+    <p>Siga-nos e entre em contato!</p>
+    <a href="https://www.instagram.com/SEU_INSTAGRAM_AQUI" target="_blank" style="margin: 0 10px;">
+      <img src="images/icons/instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+    </a>
+    <a href="https://wa.me/5521992344201?text=Olá%2C%20gostaria%20de%20mais%20informações!" target="_blank" style="margin: 0 10px;">
+      <img src="images/icons/wpp.png" alt="WhatsApp" style="width: 30px; height: 30px;">
+    </a>
+  </footer>
+
+
+  <script>
+window.addEventListener('load', () => {
+  document.body.style.opacity = '1';
+});
+</script>
+  <script src="script.js"></script>
+</body>
+
+</html>

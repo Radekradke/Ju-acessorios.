@@ -1,14 +1,14 @@
 [
   {
     "id": "p1",
-    "title": "Bracelete Dourado Elegante",
+    "title": "Cordão prata",
     "subtitle": "Aço Inox Banhado",
-    "price": "R$ 89,90",
+    "price": "R$ 38,90",
     "img": "images/produto1.jpeg",
     "desc": "Bracelete sofisticado em aço inox com banho dourado de alta qualidade. Acabamento impecável que adiciona elegância a qualquer look.",
     "badge": "Novo",
-    "sold": false,
-    "category": "bracelete"
+    "sold": true,
+    "category": "colares"
   },
   {
     "id": "p2",
@@ -143,3 +143,4 @@
     "category": "pulseiras"
   }
 ]
+
